@@ -5,7 +5,7 @@ library(glmmTMB)
 library(broom.mixed)
 library(xtable)
 
-file_path <- "OneDrive/Project/Analysis/data/delta_df.csv"
+file_path <- "data/delta_df.csv"
 data <- read.csv(file_path, header = TRUE, sep = ",")
 
 
